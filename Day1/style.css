@@ -9,6 +9,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 30px;
 }
 
 .card {
@@ -28,6 +29,8 @@
     font-family: 'Courier New', Courier, monospace;
     color: #FFF;
     opacity: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card1 {
