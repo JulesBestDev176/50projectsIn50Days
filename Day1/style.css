@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    margin-left: 20px;
+    height: 80vh;
+    width: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.7s ease-in;
+}
+
+.card h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFF;
+    opacity: 0;
+}
+
+.card1 {
+    background-image: url('img/1.jpg');
+}
+
+.card2 {
+    background-image: url('img/2.jpg');
+}
+
+.card3 {
+    background-image: url('img/3.jpg');
+}
+
+.card4 {
+    background-image: url('img/4.jpg');
+}
+
+.card5 {
+    background-image: url('img/5.jpg');
+}
+
+.full {
+    width: 800px;
+}
+
+.full h2 {
+    opacity: 1;
+    transition: 0.7s ease-in;
+}
