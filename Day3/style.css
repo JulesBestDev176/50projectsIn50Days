@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #333333;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.menus {
+    position: fixed;
+    bottom: 60px;
+    left: -200px;
+    color: #FFF;
+    font-size: 18px;
+    transition: 0.7s ease-in;
+}
+
+.menus i {
+    padding: 20px;
+}
+
+.about {
+    padding: 0 20px;
+    transition: 0.9s ease-in;
+}
+
+.contact {
+    padding: 0 30px;
+    transition: 1.2s ease-in;
+}
+
+.cercle {
+    width: 200px;
+    height: 200px;
+    background-color: #FF7979;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    cursor: pointer;
+    transition: 0.7s ease-in;
+
+}
+.cercle i {
+    font-size: 26px;
+    color: #FFF;
+    
+}
+
+.container {
+    height: 200vh;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 8% 15%;
+    transform-origin: top left;
+    transition: 0.7s ease-in;
+}
+
+.rotatePage {
+    transform: rotate(-20deg);
+}
+
+.rotateCercle {
+    transform: rotate(-70deg)
+}
+
+img {
+    width: 100%;
+}
+
+p,
+h3 {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+em{
+    font-size: 16px;
+}
+
+.menuAvant {
+    
+    left: -10px;
+}
+
+
