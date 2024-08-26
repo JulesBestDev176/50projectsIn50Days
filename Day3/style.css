@@ -6,6 +6,7 @@
     font-family: "Lato", sans-serif;
 }
 
+
 body {
     height: 100vh;
     background-color: #333333;
@@ -13,66 +14,81 @@ body {
     overflow-x: hidden;
 }
 
-.menus {
-    position: fixed;
-    bottom: 60px;
-    left: -200px;
+/* menu */
+.menu {
     color: #FFF;
-    font-size: 18px;
+    position: fixed;
+    bottom: 50px;
+    font-size: 20px;
+    left: -200px;
     transition: 0.7s ease-in;
 }
 
-.menus i {
-    padding: 20px;
+.menuAvant {
+    left: 20px;
+}
+
+.menu i {
+    margin-right: 20px;
 }
 
 .about {
     padding: 0 20px;
+    margin: 20px 0;
     transition: 0.9s ease-in;
+
 }
 
 .contact {
-    padding: 0 30px;
+    padding: 0 40px;
     transition: 1.2s ease-in;
+
+
 }
 
+
+/* cercle */
 .cercle {
     width: 200px;
     height: 200px;
     background-color: #FF7979;
+    border-radius: 50%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     padding: 50px;
-    border-radius: 50%;
     position: fixed;
     top: -100px;
     left: -100px;
-    cursor: pointer;
     transition: 0.7s ease-in;
+}
 
-}
 .cercle i {
-    font-size: 26px;
+    font-size: 30px;
     color: #FFF;
-    
+    cursor: pointer;
 }
+
+.rotateCercle {
+    transform: rotate(-70deg);
+}
+
+/* container */
 
 .container {
-    height: 200vh;
-    width: 100%;
+    position: absolute;
     background-color: #FAFAFA;
-    padding: 8% 15%;
     transform-origin: top left;
     transition: 0.7s ease-in;
+
 }
 
 .rotatePage {
     transform: rotate(-20deg);
 }
 
-.rotateCercle {
-    transform: rotate(-70deg)
+.main {
+    margin: 8% 15%;
 }
 
 img {
@@ -84,14 +100,3 @@ h3 {
     margin: 20px 0;
     text-align: justify;
 }
-
-em{
-    font-size: 16px;
-}
-
-.menuAvant {
-    
-    left: -10px;
-}
-
-
