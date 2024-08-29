@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+}
+
+.search {
+    display: flex;
+}
+
+input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    height: 50px;
+    transform-origin: right;
+    transition: 0.5s ease-in;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.full {
+    padding: 15px;
+    width: 200px;
+}
+
+.none {
+    width: 0;
+}
